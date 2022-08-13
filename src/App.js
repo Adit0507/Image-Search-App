@@ -1,10 +1,14 @@
 import './App.css';
+import Jumbutron from './components/Jumbutron';
+import SearchField from './components/SearchField';
 
 function App() {
   return (
-    <div className="App">
-    <h1>DMB</h1>      
-    </div>
+    <>
+      <Jumbutron > 
+
+      </Jumbutron>
+    </>
   );
 }
 
