@@ -1,6 +1,10 @@
-import React from "react";
+import React, {useState, useContext} from "react";
+import { ImageContext } from "../App";
 
 const SearchField = () => {
+  const [searchValue, setSearchValue] = useState("");
+  const { fetchData, setSearchImage} = useContext(ImageContext);
+
   return (
     <div className="flex">
       <input
